@@ -1,0 +1,15 @@
+{
+    "name": "mrx-plogger",
+    "version": "1.0.0",
+    "description": "Nodejs storage log",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "marx",
+    "license": "ISC",
+    "dependencies": {
+        "fs-extra": "^9.1.0",
+        "moment": "^2.29.4"
+    }
+}
