@@ -1,8 +1,8 @@
 {
     "name": "mrx-plogger",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Nodejs storage log",
-    "main": "index.js",
+    "main": "./dist/index.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/marcelooblan2016/mrx-plogger.git"
