@@ -5,7 +5,7 @@ Nodejs storage log
 npm i mrx-plogger
 ```
 ## Usage
-```bash
+```js
  const {plogger} = require('mrx-plogger');
 ( async () => {
     // create a logfile within the same folder
