@@ -6,7 +6,7 @@ npm i mrx-plogger
 ```
 ## Usage
 ```bash
- const {plogger} = require('../dist/index');
+ const {plogger} = require('mrx-plogger');
 ( async () => {
     // create a logfile within the same folder
     let ploggerIniatiated = new plogger({logFileName: 'test.log'});
