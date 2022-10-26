@@ -1,6 +1,6 @@
 {
     "name": "mrx-plogger",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Nodejs storage log",
     "main": "./dist/index.js",
     "repository": {
