@@ -1,15 +1,29 @@
 {
     "name": "mrx-plogger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Nodejs storage log",
     "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcelooblan2016/mrx-plogger.git"
     },
     "author": "marx",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/marcelooblan2016/mrx-plogger.git/issues"
+    },
+    "homepage": "https://github.com/marcelooblan2016/mrx-plogger.git#readme",
     "dependencies": {
         "fs-extra": "^9.1.0",
         "moment": "^2.29.4"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.178",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.2"
+    },
+    "scripts": {
+        "start": "tsc",
+        "watch": "tsc -w"
     }
 }
